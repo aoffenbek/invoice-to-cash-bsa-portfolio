@@ -21,6 +21,7 @@ This document defines the **high-level data model** for the Invoice-to-Cash (I2C
 | Exception / Flag         | Represents invalid invoice, duplicate, or reconciliation issues | Invoice Intake / Power BI | For monitoring only, does not update ERP                     |
 | KPI / Analytics          | Aggregated data for dashboards                                  | Power BI                  | Read-only, updated from Data Platform                        |
 
+
 ---
 
 ## 3. Relationships
@@ -31,7 +32,7 @@ This document defines the **high-level data model** for the Invoice-to-Cash (I2C
 * **Exceptions → Invoice / AR**: Optional, indicates issue
 * **KPI / Analytics → all entities**: Read-only aggregation for reporting
 
-Visual diagram can be created in draw.io using **rectangles for entities** and **lines for relationships**, with arrows showing direction of data flow.
+![High-Level Data Model](../diagrams/I2C_HighLevel_DataModel.png)
 
 ---
 
