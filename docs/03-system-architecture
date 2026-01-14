@@ -29,18 +29,11 @@ Each system has a **single primary responsibility**.
 
 ---
 
-## 3. Logical Architecture Diagram (Description)
+## 3. Logical Architecture Diagram – Invoice-to-Cash
 
-The system flow follows a layered approach:
+![I2C Logical System Architecture](../diagrams/I2C_Logical_System_Architecture.png)
 
-* Transactional systems handle **processing and posting**
-* Analytical systems handle **visibility and control**
-
-High-level flow:
-
-Client → Intake System → Accounting ERP → Data Platform → Power BI
-
-Feedback loops exist only for **control and exception handling**, not data correction.
+The diagram above shows the logical system landscape supporting the Invoice-to-Cash process. It emphasizes clear system boundaries, one-directional data flow, and separation between transactional processing and analytical control.
 
 ---
 
