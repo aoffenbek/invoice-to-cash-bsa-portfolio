@@ -78,7 +78,7 @@ ERP (SAP-style) acts as the **system of record**, while analytics platforms prov
 
 ### Invoice-to-Cash Process Flow
 
-![I2C Process Flow](diagrams/I2C_Process_Flow.png)
+![I2C Process Flow](diagrams/I2C_E2E_Process.png)
 
 ### Logical System Architecture
 
